@@ -59,7 +59,7 @@
     <li><em><font color="#4875B4">Libraries and Software:</font></em> NumPy, Pandas, Scikit-Learn, SciPy, Pytorch, TensorFlow, Keras, NLTK, Spacy, Stanford CoreNLP PySpark, networkx </li>
     <li><em><font color="#4875B4">Data Visualization:</font></em> Seaborn, Matplotlib, ggplot, Altair, plotly</li>
     <li><em><font color="#4875B4">Web Development:</font></em>  HTML, CSS, Javascript, Coffeescript, Bootstrap CSS, Django, Ruby on Rails, Ember.js</li>
-    <li><em><font color="#4875B4">Software Dev Tools:</font></em>Swagger Codegen, Docker CE, Kubernetes, Virtualbox, Devstack, git</li>
+    <li><em><font color="#4875B4">Software Dev Tools:</font></em>Swagger Codegen, Docker CE, Kubernetes, travis ci, Virtualbox, Devstack, git, MQTT</li>
     <li><em><font color="#4875B4">Databases:</font></em> PostgreSQL, MySQL, MongoDB, Neo4j</li>
     <li><em><font color="#4875B4">Preferred Operating Systems:</font></em>Linux (Ubuntu, Fedora, Centos, Mint)</li>
     <li><em><font color="#4875B4">Preferred Editors:</font></em> Jupyter Notebook, GNU Emacs</li>
@@ -130,35 +130,53 @@
           </p>
         </td>
       </tr>
+      
+      <tr>
+        <td width="25%"><img src="images/swagger.png" alt="swagger" width = "180"></td>
+        <td width="75%" valign="top">
+        <p>
+          <a href="https://github.com/seashiva94/hid-sp18-503/tree/master/project-code" target="_blank">
+          <papertitle>Swagger Service for Openstack</papertitle>
+          </a><br>
+          <em>Python, Swagger API, openstack, docker, </em>
+	  
+        <p>
+	  <li>Wrote swagger yml specification for openstack
+	  instances</li>
+	  <li>Used Swagger codegen and python to create REST endpoints
+	  for openstack services (start, stop, delete, create, and
+	  list VMs) and potentially provide an additional layer for
+	  user privillege and access management</li>
+	  <li>Deploy the application with docker, and test on
+	  chameleon cloud</li>
+	    
+        </p>
+        </td>
+      </tr>
+      
+      <tr>
+        <td width="25%"><img src="images/mqtt" alt="prl" width = "180"></td>
+        <td width="75%" valign="top">
+        <p>
+          <a href="https://github.com/seashiva94/hid201/tree/master/project" target="_blank">
+          <papertitle>IoT monitoring application using MQTT and  Raspberry pi</papertitle>
+          </a><br>
+          <em>Python, MQTT, IoT, Raspberry Pi</em>
+        <p>
+	  <ul>
+	    <li>Built a robot car using Raspberry Pi</li>
+	    <li>Use lightweight MQTT protocol to remotely control the robot car over wifi to potentially
+	      aid monitoring and surveying applications</li>
+	    <li>Use MQTT to stream image frames in real time from
+	    Raspberry Pi onboard camera to the controlling machine, to
+	    aid navigation</li>
+	  </ul>
+	  
+        </p>
+        </td>
+      </tr>
+
       <!--
-      <tr>
-        <td width="25%"><img src="graph-search.jpg" alt="prl" width = "180"></td>
-        <td width="75%" valign="top">
-        <p>
-          <a href="https://github.com/Dheeraj2444/course-projects/tree/master/optimal-path-search" target="_blank">
-          <papertitle>Optimal Path Search</papertitle>
-          </a><br>
-          <em>Python, Graph Search</em>
-          <p>
-          Worked on a project aimed at finding the most optimal route between a given pair of cities of the United States. Compared different Graph Search Algorithms, namely, Breadth First Search, Depth First Search, Uniform Cost Search, and A-star on the basis of path cost, time, & space requirements for multiple cost functions
-        </p>
-        </td>
-      </tr>
-
-      <tr>
-        <td width="25%"><img src="hmm.png" alt="prl" width = "180"></td>
-        <td width="75%" valign="top">
-        <p>
-          <a href="https://github.com/Dheeraj2444/course-projects/tree/master/part-of-speech-tagging" target="_blank">
-          <papertitle>Part-of-Speech (POS) Tagging</papertitle>
-          </a><br>
-          <em>Python, Hidden Markov Model, Bayes Net, Naive Bayes, Bag-of-words</em>
-          <p>
-          Developed a model to perform part-of-speech tagging in English language using Hidden Markov Model, Bayesian inferences, and naive Bayes. Trained the model to calculate initial, transition, emission, and state probabilities on a data consisting of nearly 1 million words and 50,000 sentences. Implemented and compared the performance of Variable Elimination (Forward-Backward Algorithm) and Viterbi Algorithm. Final model resulted in above 50% sentence accuracy and above 90% word accuracy when tested over 2000 sentences.
-        </p>
-        </td>
-      </tr>
-
       <tr>
         <td width="25%"><img src="Bayes_rule.png" alt="prl" width = "180"></td>
         <td width="75%" valign="top">
@@ -172,7 +190,7 @@
         </p>
         </td>
       </tr>
-
+      
       <tr>
         <td width="25%"><img src="n-queens.png" alt="prl"  height = "100"></td>
         <td width="75%" valign="top">
